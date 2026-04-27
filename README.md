@@ -9,4 +9,4 @@ After installing the repo, navigate into your project directory: *cd gallery-app
 When running the page, you'll see from top to bottom:
 - A rendered image taken from the 'images' object array (images.url)
 - A caption for the rendered image taken from the same 'images' object array (images.description)
-- "next" and "previous" buttons, that have boundary checks 
+- "next" and "previous" buttons, that have boundary checks so that you can't navigate to the next/previous image if it doesn't exist. 
