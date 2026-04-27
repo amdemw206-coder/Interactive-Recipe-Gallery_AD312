@@ -21,12 +21,12 @@ export function Gallery(){
     }
     
     return (
-        <>
+        <div className={styles.container}>
            <img src={images[img].url} className={styles.imgDim} /> 
            <p className={styles.text}>{images[img].description}</p>
            <button onClick={nextImage} disabled={img === (images.length-1)}>Next</button>
            <button onClick={prevImage} disabled={img === 0}>Previous</button> 
-        </>
+        </div>
     )
 }
 
