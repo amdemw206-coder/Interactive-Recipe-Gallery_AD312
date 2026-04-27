@@ -1,8 +1,8 @@
-## Project Title: AD 312 Counter Component with State Management
+## Project Title: AD 312 Building an Interactive Recipe Gallery with React
 #### By: Amde Wubshet
 
 ### Breif Description
-Develop a React application that showcases an interactive recipe gallery using  React state to manage dynamic content and respond to user actions.
+Developed a React application that showcases an interactive recipe gallery using React state to manage dynamic content and respond to user actions.
 
 ### Commands 
 After installing the repo, navigate into your project directory: *cd gallery-app*. Then start the development server: *npm run dev*. 
