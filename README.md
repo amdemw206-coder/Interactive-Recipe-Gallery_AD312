@@ -6,9 +6,7 @@ Develop a React application that showcases an interactive recipe gallery using  
 
 ### Commands 
 After installing the repo, navigate into your project directory: *cd gallery-app*. Then start the development server: *npm run dev*. 
-When running the page, you'll see from top to bottom: 
-- A counter that is referenced from the "count" useState Hook. Represents the current state of the counter
-- *Button "Increment"*, Increases the count by 1.
-- *Button "Increment After Delay"*, Increases the count by 1 after a 2-second delay using setTimeout.
-- *Button "Increment Twice"*, Attempts to increment the count by 2 immediately. This is to demonstrate batching and how React treats multiple state updates.
-- *Button "Correct Increment Twice"*, Correctly increments the count by 2 using a state updater function: setCount(prevCount => prevCount + 1). 
+When running the page, you'll see from top to bottom:
+- A rendered image taken from the 'images' object array (images.url)
+- A caption for the rendered image taken from the same 'images' object array (images.description)
+- "next" and "previous" buttons, that have boundary checks 
